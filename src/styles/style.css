@@ -1,0 +1,64 @@
+:root {
+  --font-primary: "Raleway", serif;
+  --font-secondary: "Oswald", serif;
+  /* colors */
+  --colorTextPrimary: #000000;
+  --colorTextContrast: #ffffff;
+  --colorButton: #b2ffa6;
+  --colorBgPrimary: #121212;
+  --colorBgSection: #efefef;
+}
+body {
+  font-family: var(--font-primary);
+  color: var(--colorTextPrimary);
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: 400;
+}
+.header {
+  background-color: var(--colorBgPrimary);
+}
+.nav-link {
+  color: var(--colorBgSection);
+  font-family: var(--font-secondary);
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--colorButton);
+}
+/* section hero */
+.hero-title {
+  font-size: 64px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.hero-title-part {
+  font-weight: 700;
+  font-size: 64px;
+}
+.hero-button {
+  line-height: 1.5;
+  letter-spacing: 0.6em;
+  background-color: var(--colorButton);
+  font-family: var(--font-secondary);
+}
+/* about */
+.about-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.about-text {
+  font-size: 32px;
+  line-height: 1.19;
+}
+.about {
+  background-color: var(--colorBgSection);
+}
+.about-link {
+  color: var(--colorTextPrimary);
+  line-height: 1.5;
+  background-color: var(--colorButton);
+  font-family: var(--font-secondary);
+  text-decoration: none;
+}
