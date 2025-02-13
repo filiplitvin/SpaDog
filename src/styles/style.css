@@ -21,7 +21,6 @@ body {
 .nav-link {
   color: var(--colorBgSection);
   font-family: var(--font-secondary);
-  text-decoration: none;
 }
 .nav-link:hover {
   color: var(--colorButton);
@@ -106,7 +105,7 @@ body {
   font-size: 40px;
 }
 .footer-logo-part {
-  font-weight: 300;
+  font-weight: 700;
   color: var(--colorTextContrast);
   font-size: 40px;
   text-decoration: none;
