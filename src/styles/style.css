@@ -24,6 +24,8 @@ body {
 }
 .header {
   background-color: var(--colorBgPrimary);
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 .nav-link {
   color: var(--colorBgSection);
@@ -31,6 +33,10 @@ body {
 }
 .nav-link:hover {
   color: var(--colorButton);
+}
+.hero-content {
+  padding-top: 150px;
+  padding-bottom: 365px;
 }
 /* section hero */
 .hero-title {
@@ -61,12 +67,20 @@ body {
 .about {
   background-color: var(--colorBgSection);
 }
+.about-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .about-link {
   color: var(--colorTextPrimary);
   line-height: 1.5;
   background-color: var(--colorButton);
   font-family: var(--font-secondary);
   text-decoration: none;
+}
+.feachers {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .feachers-title {
   font-weight: 700;
@@ -75,6 +89,8 @@ body {
 }
 .services {
   background-color: var(--colorBgSection);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .feachers-title {
   font-size: 40px;
@@ -105,6 +121,8 @@ body {
 }
 .footer {
   background-color: var(--colorBgPrimary);
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 .footer-logo {
   font-weight: 300;
