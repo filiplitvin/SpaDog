@@ -27,6 +27,12 @@ body {
   padding-bottom: 32px;
   padding-top: 32px;
 }
+.nav-list {
+  display: flex;
+
+  gap: 100px;
+  align-items: center;
+}
 .nav-link {
   color: var(--colorBgSection);
   font-family: var(--font-secondary);
@@ -34,15 +40,22 @@ body {
 .nav-link:hover {
   color: var(--colorButton);
 }
+.hero-container {
+  display: flex;
+  gap: 342px;
+}
 .hero-content {
   padding-top: 150px;
   padding-bottom: 365px;
 }
+
 /* section hero */
 .hero-title {
   font-size: 64px;
   font-weight: 400;
   text-transform: capitalize;
+  margin-bottom: 50px;
+  line-height: 85px;
 }
 .hero-title-part {
   font-weight: 700;
@@ -50,9 +63,11 @@ body {
 }
 .hero-button {
   line-height: 1.5;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.06em;
   background-color: var(--colorButton);
   font-family: var(--font-secondary);
+  padding: 15px 80px;
+  border-radius: 5px;
 }
 /* about */
 .about-title {
