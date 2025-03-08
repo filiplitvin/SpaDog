@@ -79,8 +79,19 @@ body {
   font-size: 32px;
   line-height: 1.19;
 }
+.about-text:first-of-type {
+  margin-bottom: 40px;
+}
+.about-text:last-of-type {
+  margin-bottom: 60px;
+}
 .about {
   background-color: var(--colorBgSection);
+}
+.about-container {
+  display: flex;
+  gap: 78px;
+  align-items: center;
 }
 .about-content {
   padding-top: 100px;
@@ -92,10 +103,18 @@ body {
   background-color: var(--colorButton);
   font-family: var(--font-secondary);
   text-decoration: none;
+  padding: 15px 80px;
+  border-radius: 5px;
+  display: inline-block;
 }
 .feachers {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.feachers-container {
+  display: flex;
+  gap: 174px;
+  align-items: center;
 }
 .feachers-title {
   font-weight: 700;
